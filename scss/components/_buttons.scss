@@ -1,0 +1,57 @@
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+  @include trans;
+  @include btn;
+}
+  @each $name, $color in $btn-colors {
+    .btn.#{$name} {
+        background-color: $color;
+
+  }
+}
+  @each $name, $color in $light { // 
+  .btn.#{$name}:hover {   // ***
+   background-color: $color; // ****
+  }
+
+ }
+
+
+
+//  &.default {
+//    background-color: $link;
+//    &:hover {
+//      background-color: $light1;
+//    }
+//  }
+//  &.error {
+//    background-color: $back;
+  //  &:hover {
+    //  background-color: $light2;
+  //  }
+ // }
+//  &.info {
+ //   background-color: $inf;
+ //   &:hover {
+ //     background-color: $light3;
+//    }
+//  }
+//  &.success {
+////    background-color: $suc;
+//    &:hover {
+ //     background-color: $light4;
+ //   }
+ // }
+ // &.warning {
+ //   background-color: $warn;
+ //   &:hover {
+  //    background-color: $light5;
+ //   }
+//  }
+//}
+  
+  

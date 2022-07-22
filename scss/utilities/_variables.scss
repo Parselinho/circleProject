@@ -1,0 +1,78 @@
+// ------------------------
+// COLOR  -----------------
+// ------------------------
+
+$navhover: #fff;
+$border: #ccc;
+$body: #777;
+$primary: #58e1c1;
+$link: #51ddfc;
+$secondary: #777;
+$back: #e4757a;
+$inf: #927bc1;
+$suc: #63cc82;
+$warn: #fd7856;
+$deb: #deb2ee;
+$col4: #7ee6fd;
+$col5: #88d9a0;
+$col6: #4da2bb;
+$col7: #ec9fa3;
+$col8: #fd9f85;
+$col11: #51ddfc;
+$col12: #80e8d1;
+
+$btn-colors: (
+    'default': $link,
+    'success': $suc,
+    'error': $back,
+    'warning': $warn,
+    'info': $inf,
+);
+
+$themes: (
+    'col-1': $inf,
+    'col-2': $warn,
+    'col-3': $deb,
+    'col-4': $col4,
+    'col-5': $col5,
+    'col-6': $col6,
+    'col-7': $col7,
+    'col-8': $col8,
+    'col-9': $back,
+    'col-10': $suc,
+    'col-11': $col11,
+    'col-12': $col12, 
+    );
+
+
+// -------------------------
+// MEDIA QR ----------------
+// -------------------------
+$brk-narrow: 768px;
+
+
+// ---------------
+// font
+// ---------------
+$stack-font: 'Lato', sans-serif;
+$font3: 300;
+$font7: 700;
+$it: italic;
+
+// ------------------
+// extra ------------
+// ------------------
+
+$light1: lighten($link, 15%);
+$light2: lighten($back, 15%);
+$light3: lighten($inf, 15%);
+$light4: lighten($suc, 15%);
+$light5: lighten($warn, 15%);
+
+$light: (
+'default': $light1,
+'error': $light2,
+'info': $light3,
+'success': $light4,
+'warning': $light5,
+);

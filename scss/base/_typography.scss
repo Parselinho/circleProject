@@ -1,0 +1,41 @@
+
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+    font-family: $stack-font;
+    color: $body;
+    box-sizing: border-box;
+  }
+  
+  p {
+    line-height: 1.45em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  /* ============================================= */
+  /*              Typography                       */
+  /* ============================================= */
+  
+  .headline-primary {
+    color: $primary;
+    margin-left: 10px;
+   &-secondary {
+    font-weight: $font3;
+    color: $secondary;
+  }
+}
+  
+  .link {
+    color: $link;
+    font-weight: $font7;
+  }
+  
+  .blockquote {
+    @include block;
+  }

@@ -1,0 +1,16 @@
+
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+
+.nav {
+    @include nav;
+   &-link {
+    @include link;
+  &:hover {
+    color: $navhover;
+    background-color: $primary;
+  }
+}
+}
+  
